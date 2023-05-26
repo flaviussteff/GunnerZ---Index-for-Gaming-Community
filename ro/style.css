@@ -1,0 +1,372 @@
+@font-face{
+    font-family: Geometos;
+    src: url(font/Geometos.otf);
+}
+@font-face{
+    font-family: Facundo;
+    src: url(font/Facundo.otf);
+}
+@font-face {
+    font-family: Hops-And-Barley;
+    src: url(font/Hops-And-Barley.ttf);
+}
+@font-face{
+    font-family: CynthoNext;
+    src: url(font/CynthoNext.otf);
+}
+@font-face {
+    font-family: Uniman;
+    src: url(font/Uniman.ttf);
+}
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:1903px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+#community li {
+    position: relative;
+    bottom: 890px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #05afa9;
+    color: white;
+    font-family: Hops-And-Barley;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#myBtn:hover {
+        background-color: #555;
+    }
+
+a:link{
+    text-decoration: none;
+}
+.navbar:hover {
+    background: url("") no-repeat;
+    background-repeat: no-repeat;
+}
+.mda {
+    font-family: Geometos;
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('images/splash.jpg');
+    text-align: center;
+    position: relative;
+    top: 110px;
+    padding-left: 90px;
+}
+#text {
+    font-family: Uniman;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    padding-top: 130px;
+    padding-left: 695px;
+    width: 800px;
+    height: 150px;
+}
+#copyright {
+    color: white;
+    text-align: justify;
+    position: center;
+    padding-top: 150px;
+    padding-left: 779px;
+    width: 900px;
+    height: 800px;
+    left: 30px;
+}
+
+ul#menu li {
+    text-shadow: 2px 2px 2px black;
+    color:white;
+    font-family: Geometos;
+    display: inline;
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    color: #000000;
+    position: relative;
+    top: 37px;
+}
+.banner {
+    background-image: url("background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.banner2 {
+    background-image: url("backgroundforum.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.banner3 {
+    background-image: url("backgroundservers.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.banner4 {
+    background-image: url("backgroundjoinus.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .banner {
+        background-attachment: scroll;
+        height: 1000px;
+    }
+
+    .banner2 {
+        background-attachment: scroll;
+        height: 1000px;
+    }
+
+    .banner3 {
+        background-attachment: scroll;
+        height: 1000px;
+    }
+
+    .banner4 {
+        background-attachment: scroll;
+        height: 1000px;
+    }
+}
+ul#menu2 li{
+    padding-right: 1670px;
+    padding-bottom: 35px;
+}
+ul#menu3 li{
+    display: inline;
+    padding-right: 10px;
+    bottom: 470px;
+    left:870px;
+}
+#menu3 li {
+    position:relative;
+    
+}
+#menu4 li {
+    font-family: Hops-And-Barley;
+    text-align: right;
+    font-size: 28px;
+    padding-bottom: 70px;
+    position: relative;
+    top: -245px;
+    right: 85px;
+}
+.selected {
+    color: #04fcf4;
+}
+.alb{
+    color: white;
+}
+#menu6 li{
+    position: relative;
+    left: 870px;
+    bottom: 605px;
+}
+ul#menu6 li{
+    display: inline;
+    padding-right: 10px;
+}
+#menu9 li {
+    position: relative;
+    left: 870px;
+    bottom: 605px;
+}
+
+ul#menu9 li {
+    display: inline;
+    padding-right: 10px;
+}
+.scroll{
+    color:white;
+    font-family: Hops-And-Barley; 
+    letter-spacing: 3px;
+    position:relative;
+    bottom: 60px;
+}
+#menu7 li {
+    position: relative;
+    left: 970px;
+    bottom: -10px;
+}
+
+ul#menu7 li {
+    display: inline;
+    padding-right: 10px;
+}
+#menu8 li {
+    font-family: Hops-And-Barley;
+    text-align: right;
+    font-size: 28px;
+    padding-bottom: 70px;
+    position: relative;
+    top: -378px;
+    right: 85px;
+}
+#menu10 li {
+    font-family: Hops-And-Barley;
+    text-align: right;
+    font-size: 28px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 93px;
+    right: 85px;
+}
+#menu9 li {
+    font-family: Hops-And-Barley;
+    text-align: right;
+    font-size: 28px;
+    padding-bottom: 70px;
+    position: relative;
+    top: -123px;
+    right: 85px;
+}
+.linksinfo {
+    font-family: Geometos;
+    font-size: 62px;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('images/splash.jpg');
+    text-align: left;
+    position: relative;
+    top: 50px;
+    padding-left: 75px;
+}
+
+#text2 {
+    font-family: Uniman;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    padding-top: 75px;
+    padding-left: 75px;
+    width: 450px;
+    height: 250px;
+}
+#servers1 li {
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    bottom: 320px;
+    padding-left: 115px;
+    pointer-events: none;
+}
+#servers2 li {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 720px;
+    pointer-events: none;
+}
+.titluserver {
+    font-family: Geometos;
+    font-size: 62px;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('images/splash.jpg');
+    text-align: left;
+    position: relative;
+    top: -1200px;
+    padding-left: 130px;
+}
+#servertext {
+    font-family: Uniman;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    position:relative;
+    bottom: 750px;
+    left: 53px;
+    padding-left: 75px;
+    width: 1060px;
+    height: 250px;
+}
+#logojoinus{
+    text-align: center;
+    position:relative;
+    font-family: CynthoNext;
+    color: white;
+    font-size: 90px;
+    bottom: 500px;
+}
+#buttons li{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: -165px;
+    left: 0px;
+    width: 120%;
+    height: 120%;
+}
+#endtext{
+    color: white;
+    width: 1000px;
+    font-family: Uniman; 
+    height:50px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    bottom: 50px;
+}
+#endcopyright {
+    color: #28282e;
+    font-family: Facundo;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+}
+.ro{
+    position: relative;
+    bottom: 1050px;
+    left: 33px;
+}
